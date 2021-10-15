@@ -119,7 +119,7 @@ user_label.grid(column=0, row=2)
 user_entry = Entry(width=44)
 user_entry.grid(column=1, row=2, columnspan=2)
 user_label.config(padx=10, pady=5)
-user_entry.insert(0, "cja@gmail.com")
+user_entry.insert(0, "test@mail.com")
 
 password_label = Label(text="Password:")
 password_label.grid(column=0, row=3)
