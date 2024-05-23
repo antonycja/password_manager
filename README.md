@@ -28,13 +28,20 @@ To use the password manager, follow the steps below:
 2. **Clone this repository** to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/yourusername/password_manager.git
+   git clone https://github.com/antonycja/password_manager.git
    ```
-3. **Install the required libraries** by running the following commands in your terminal:
+   or
+   ```bash
+   git clone git@github.com:antonycja/password_manager.git
+   ```
+   or
+   **Download the ZIP file**
+   
+4. **Install the required libraries** by running the following commands in your terminal:
     ```bash
       pip install pyperclip tkinter random json
     ```
-4. **Run the password manager** using the following command:
+5. **Run the password manager** using the following command:
    ```bash
       python password_manager.py
     ```
